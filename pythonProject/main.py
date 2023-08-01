@@ -20,3 +20,13 @@ conversao = int(num)
 
 print(conversao, type(conversao))
 
+print("Valores complex:")
+
+a = 3+2j
+
+print(a, type(a))
+
+print(complex(1, 3))
+
+
+
