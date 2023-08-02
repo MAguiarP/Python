@@ -10,3 +10,5 @@ print(teste or teste2)
 
 print(teste and teste2)
 
+
+
