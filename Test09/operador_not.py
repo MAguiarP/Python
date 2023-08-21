@@ -5,4 +5,3 @@ if not sistema_ativo:
 else:
     print("O sistema encontra-se offline no momento, volte novamente mais tarde.")
 
-    
