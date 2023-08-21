@@ -1,12 +1,12 @@
-tipoSorvete = input("Qual o tipo de sorvete? ")
+tipoSorvete = input("Qual o tipo de sorvete, Fruta, Leite ou Palito ? ")
 
-if tipoSorvete == "fruta de Fruta":
+if tipoSorvete == "Fruta":
     print("Este é um sorvete de Fruta.")
 
-elif tipoSorvete == "sorvete de Leite":
+elif tipoSorvete == "Leite":
     print("Este é um sorvete de Leite.")
 
-elif tipoSorvete == "sorvete de Palito":
+elif tipoSorvete == "Palito":
     print("Este é um sorvete de Palito")
 
 else:
