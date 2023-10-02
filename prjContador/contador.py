@@ -7,3 +7,20 @@ opcao = input("Informe qual opção você deseja: ")
 if opcao =='1':
     tempo = int(input("Quanto tempo você deseja contar?\nR:"))
     for c in range(1, tempo + 1):
+        print(c)
+        sleep(1)
+    print("Finalizando...")
+    sleep(1)
+elif opcao =='2':
+    tempo = int(input("Quanto tempo você deseja contar? \nR:"))
+    for c in range(tempo, -1, -1):
+        print(c)
+        sleep(1)
+    print("Finalizando")
+    sleep(1)
+elif opcao =='0':
+    print("Finalizando...")
+    sleep(1)
+else:
+    print("\nInfrome uma Opção válida!\n finalizando...")
+    sleep(1)
