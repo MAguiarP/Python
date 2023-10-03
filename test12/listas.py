@@ -21,3 +21,17 @@ lista4.extend([152, 144, 5, 56])
 lista4.extend('Python')
 print(lista4)
 """
+lista1 = [1, 2, 11, 66, 71, 24, 72, 1, 4]
+lista2 = ['p', 'y', 't', 'h', 'o', 'n']
+lista3 = [1, 2, 'a', 'b']
+lista4 = []
+lista5 = list(range(10, -1, -1))
+lista6 = list("Curso de Python")
+lista3.insert(2,15)
+print(lista3)
+
+
+
+
+#utilizando o reverse e o copy em listas
+
