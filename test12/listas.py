@@ -28,10 +28,23 @@ lista4 = []
 lista5 = list(range(10, -1, -1))
 lista6 = list("Curso de Python")
 lista3.insert(2,15)
-print(lista3)
 
 
-
+"""
 
 #utilizando o reverse e o copy em listas
+lista1.reverse()
+print(lista1)
+lista4 = lista5.copy()
+print(lista4)
+"""
+#removendo elementos de uma lista
+print(lista1)
+lista1.pop()
+print(lista1)
 
+print(lista6)
+lista6.pop(3)
+print(lista6)
+lista6.clear()
+print(lista6)
