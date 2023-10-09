@@ -15,6 +15,5 @@ for elemento in lista1:
         soma += elemento
     print("A soma de todos os elementos da lista é:", soma)
 
-    #exemplo de iteração com while
 
     
