@@ -12,3 +12,6 @@ print(len(tupla1))
 
 for indice, valor in enumerate(tupla1):
     print(indice, valor)
+
+
+    
